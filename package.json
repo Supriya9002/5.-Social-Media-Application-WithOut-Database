@@ -1,0 +1,19 @@
+{
+  "name": "socialmediaapplication",
+  "version": "1.0.0",
+  "description": "Social Media Application. where user create post, like , comment , delete post, update post and many others features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "author": "Supriya Haldar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "express-basic-auth": "^1.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1"
+  }
+}
